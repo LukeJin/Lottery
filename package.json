@@ -1,0 +1,30 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "Lottery based project using solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeJin/Lottery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeJin/Lottery/issues"
+  },
+  "homepage": "https://github.com/LukeJin/Lottery#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.2.1",
+    "ethers": "^5.0.24",
+    "hardhat": "^2.0.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0"
+  }
+}
